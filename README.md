@@ -32,8 +32,8 @@ For a reminder of how to break down a UI, [click here](https://beta.reactjs.org/
 
 👉 Build a re-useable component:
 
-- Create a new folder inside of the components folder and call it `Card`.
-- Inside the `Card` folder Create a new file called index.js.
+- Create a new folder inside of the components folder and call it `Card`. Done
+- Inside the `Card` folder Create a new file called index.js. Done
 - Inside index.js create a functional component that returns a JSX div.
 - Add a className `className="card"` to the JSX as there is a class allready applied to it in App.css (you can customize the CSS if you have time!).
 
