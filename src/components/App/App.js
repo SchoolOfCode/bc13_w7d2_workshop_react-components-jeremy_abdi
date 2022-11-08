@@ -1,4 +1,5 @@
 import Cards from "../Card";
+import Button from "../Card/Button"
 import "./App.css";
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <p>test4</p>
     <p>test5</p>
     <p>test6</p>
+    <Button/>
+    <Button/>
   </Cards>;
 }
 
