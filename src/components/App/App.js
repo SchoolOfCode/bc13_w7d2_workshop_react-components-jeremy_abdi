@@ -4,15 +4,25 @@ import "./App.css";
 
 function App() {
   return <Cards>
-    <p>test1</p>
-    <p>test2</p>
-    <p>test3</p>
-    <p>test4</p>
-    <p>test5</p>
-    <p>test6</p>
-    <Button/>
-    <Button/>
+    <img alt="soc" width={"100%"} src={ "https://i.ytimg.com/vi/hHwblpw3grg/maxresdefault.jpg" } />
+    <h3>Test Title</h3>
+    <p> Most important test paragraph... </p>
+    <Button color="red"/>
+    <Button color="blue"/>
   </Cards>;
 }
 
 export default App;
+
+
+// - A title :
+
+//   `<h3> props goes here </h3>`
+
+// - text description :
+
+//   `<p> props goes here </p>`
+
+// - An Image :
+
+//   `<img alt="soc" width={"100%"} src={ url props goes here } />`

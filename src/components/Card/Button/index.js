@@ -1,6 +1,6 @@
 import "./Button.css"
 
-export default function Button() {
-    return <button className="Button">Play</button>
+export default function Button(props) {
+    return <button className={props.color}>Play</button>
 }
 
